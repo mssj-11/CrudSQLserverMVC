@@ -26,5 +26,12 @@ namespace CrudSQLserverMVC.Controllers
 
             return View();
         }
+
+        public ActionResult Mision()
+        {
+            ViewBag.Message = "Your mision page.";
+
+            return View();
+        }
     }
 }
